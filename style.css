@@ -1,3 +1,22 @@
 body {
-    margin-left: 400px;
+    background: url(../images/cacao-bg.jpg) center/cover no-repeat fixed;
+
+}
+
+.container {
+    width: 380px;
+    height: 350px;
+    margin: 30px auto;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+#counter {
+    font-size: 50px;
+}
+button {
+    border-radius: 15px;
+    padding: 5px;
+    width: 80px;
 }
